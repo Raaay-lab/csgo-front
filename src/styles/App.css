@@ -1,0 +1,13 @@
+a{
+  color: var(--dark-theme-main-letter);
+  text-decoration: none;
+  font-size: 20px;
+}
+.App__header {
+  background-color: var(--dark-main-theme);
+  color: var(--dark-theme-main-letter);
+  box-shadow: -2px 0px 3px 2px var(--dark-box-shadow);
+  position: fixed;
+  width: 100%;
+}
+
