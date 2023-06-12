@@ -1,0 +1,22 @@
+.content{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    background-color: var(--dark-bg);
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}   
+
+.info{
+    margin-top: auto;
+}
+
+.slider{
+    text-align: center;
+}
+.slider > span{
+    color: var(--dark-theme-main-letter);
+}

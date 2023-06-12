@@ -1,0 +1,36 @@
+.player{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--dark-theme-main-letter);
+}
+.player__card{
+    background-color: var(--dark-main-theme);
+    width: 260px;
+    height: 295px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.player__photo{
+    margin: 5px;
+    text-align: center;
+}
+
+.player__photo > img{
+    width: 165px;
+    height: 165px;
+    border-radius: 5px;
+}
+
+.player__name, .player__country{
+    text-align: center;
+    margin: 5px 10px;
+}
+
+.player__team{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

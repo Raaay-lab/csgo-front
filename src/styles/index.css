@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--dark-bg);
 }
 
 code {
@@ -16,6 +17,8 @@ code {
   --dark-theme-main-letter: #ffffff;
   --dark-theme-hover-letter: #5bcc8a;
   --dark-main-theme:#282c34;
+  /* --dark-main-theme:#121212;
+  --dark-bg:#262525; */
   --dark-box-shadow:#121418;
 }
 

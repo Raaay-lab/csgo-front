@@ -9,5 +9,10 @@ a{
   box-shadow: -2px 0px 3px 2px var(--dark-box-shadow);
   position: fixed;
   width: 100%;
+  display: block;
+}
+
+span{
+  color: var(--dark-theme-main-letter);
 }
 
