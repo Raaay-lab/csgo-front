@@ -2,12 +2,12 @@ nav{
     padding: 25px 0;
 }
 
-.logo > span[mode='logo']{
+.logo > span[mode='logo'], a[mode='logo']{
     display: flex;
     align-items: center;
 }
 
-.logo > span{
+.logo > a[mode='logo']{
     color: var(--dark-theme-hover-letter);
     font-weight: 600;
     margin-right: 90px;

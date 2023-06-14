@@ -41,3 +41,7 @@ footer {
 .footer__copyright > span{
     font-size: 12px;
 }
+
+a[mode='logo']{
+    color: var(--dark-theme-hover-letter);
+}

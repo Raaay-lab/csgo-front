@@ -5,9 +5,7 @@ const Footer = () => {
         <div className="footer__main">
             <div className="footer__group">
                 <div className="footer__logo">
-                    <span>
-                        csgo_front
-                    </span>
+                <a mode='logo' href="/">csgo_front</a>
                 </div>
                 <div className="footer__info">
                     <h2>Контакты</h2>

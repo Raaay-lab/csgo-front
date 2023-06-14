@@ -1,24 +1,23 @@
 import React from 'react';
 
 const Nav = () => {
-
     return <nav>
         <div className="nav-bar">
             <div className="logo">
-                <span mode='logo'>csgo_front</span>
+                <a mode='logo' href="/">csgo_front</a>
             </div>
             <ul className="header__list">
                 <li>
-                    <a className='header__link' href="#">Про игроки</a>
+                    <a className='header__link' href="/ProPlayers">Про игроки</a>
                 </li>
                 <li>
-                    <a className='header__link' href="#">Команды</a>
+                    <a className='header__link' href="/Teams">Команды</a>
                 </li>
                 <li>
-                    <a className='header__link' href="#">Прицелы</a>
+                    <a className='header__link' href="/Crosshairs">Прицелы</a>
                 </li>
                 <li>
-                    <a className='header__link' href="#">Турниры</a>
+                    <a className='header__link' href="/Tournaments">Турниры</a>
                 </li>
             </ul>
             <div className="switches">
