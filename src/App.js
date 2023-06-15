@@ -10,7 +10,7 @@ import '../src/components/MainContent/MainContent.css';
 import PlayerCard from './components/PlayerCard/PlayerCard';
 import '../src/components/PlayerCard/PlayerCard.css';
 import Crosshairs from './components/Crosshairs/Crosshairs';
-import ProPlayers from './components/ProPlayers/ProPlayers';
+import ProPlayer from './components/ProPlayer/ProPlayer';
 import Teams from './components/Teams/Teams';
 import Tournaments from './components/Tournaments/Tournaments';
 
@@ -23,13 +23,11 @@ function App() {
         <Routes>
           <Route path="/" element={[<MainContent/>, <PlayerCard/>]}/>
           <Route path="/Crosshairs" element={<Crosshairs/>}/>
-          <Route path="/ProPlayers" element={<ProPlayers/>}/>
+          <Route path="/ProPlayer" element={<ProPlayer/>}/>
           <Route path="/Teams" element={<Teams/>}/>
           <Route path="/Tournaments" element={<Tournaments/>}/>
         </Routes>
       </Router>
-      {/* <MainContent></MainContent>
-      <PlayerCard></PlayerCard> */}
       <Footer></Footer>
     </div>
   );

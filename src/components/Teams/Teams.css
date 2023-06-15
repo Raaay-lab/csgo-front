@@ -1,0 +1,56 @@
+.Teams{
+    margin:0 100px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.Teams__list{
+    /* background-color: var(--dark-main-theme); */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.Teams__item{
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: var(--dark-main-theme);
+}
+
+.Teams__img{
+    text-align: center;
+}
+
+.Teams__title{
+    text-align: center;
+}
+
+
+.Teams__img > img{
+    width: 150px;
+    height: 150px;
+}
+
+.Teams__roster{
+    max-width: 380px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* .Teams__player{
+    
+} */
+
+.Teams__player > img{
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background-color: var(--shadow_player);
+}

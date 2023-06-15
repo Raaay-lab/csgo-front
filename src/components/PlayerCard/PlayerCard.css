@@ -21,7 +21,8 @@
 .player__photo > img{
     width: 165px;
     height: 165px;
-    border-radius: 5px;
+    border-radius: 50%;
+    background-color: var(--shadow_player);
 }
 
 .player__name, .player__country{
